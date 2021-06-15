@@ -1,4 +1,4 @@
-#
+# vs-app extracted fron the Matterport SDK Bundle Example
 
 ## Install
 Install the Node.js modules:
@@ -30,7 +30,7 @@ Add references to the local libraries in the `package.json`:
     "@mp/common": "^1.0.0",
     "@mp/bundle-sdk": "^1.0.0",
 ```
-Don't forget to set the SDK Key in the `common` library folder:
+Don't forget to set the SDK Key in the `common/src/index.ts` file of the `common` library folder:
 
 ```Typescript:common/src/index.ts
 // ...
