@@ -4,8 +4,11 @@ More advanced Matterport samples.
 ## Extracted vs-app
 [`vs-app`](matterport-vs-app/README.md)
 
-## Extracted Paint app from Matterport labs
-[`labs-paint`](matterport-labs-paint/README.md)
+## Extracted Paint tool bundle from Matterport labs page
+[`Pano Painter`](matterport-labs/README.md)
+
+## Extracted Paint tool from Matterport labs page 
+[`Pano Painter`](matterport-wall-paint/README.md) (Not Functional Yet)
 
 ## Advanced 2021 Tutorial app
 [`Advanced 2021 Tutorial`](2021-tutorial-advanced/README.md)
