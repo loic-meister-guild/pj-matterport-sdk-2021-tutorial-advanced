@@ -25,7 +25,7 @@ import { TextureSerializer, TextureDeserializer } from './Save/TextureSaver';
 import { SaveManager, SaveSerializer, SaveDeserializer } from './Save';
 import { brushInputType, makeBrushInput } from './SceneNodes/SceneComponents/BrushInput';
 
-const defaultSid = 'AAWs9eZ9ip6';
+const defaultSid = 'SxQL3iGyoDo';
 
 type Props = {
   onMount?(modelSid: string): void;
@@ -74,7 +74,7 @@ export class Main extends Component<Props, State> {
     this.addSaveHandlers = !!urlParams.get('debug');
     this.modelSid = urlParams.get('m') || defaultSid;
     this.apiHost  = urlParams.get('apiHost') || '';
-    this.applicationKey = urlParams.get('applicationKey') || 'qa314apf28d4um76n45cz91md';
+    this.applicationKey = urlParams.get('applicationKey') || 'nsai8wcy6qwb4wfzh6k1u2mgc';
     this.state = {
       sdk: undefined,
       error: undefined,

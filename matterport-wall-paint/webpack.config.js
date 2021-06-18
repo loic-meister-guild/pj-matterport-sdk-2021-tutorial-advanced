@@ -10,7 +10,7 @@ mode: 'development',
   },
   devtool: 'source-map',
   resolve: {
-    extensions: ['.js', '.jsx', '.json', '.ts', '.tsx']
+    extensions: ['.js', '.jsx', '.json', '.ts', '.tsx', '.css']
   },
   module: {
     rules: [
@@ -19,10 +19,6 @@ mode: 'development',
         loader: 'ts-loader'
       },
       { enforce: "pre", test: /\.js$/, loader: "source-map-loader" },
-      {
-        test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
-      },
     ]
   },
   plugins: [
@@ -35,6 +31,10 @@ mode: 'development',
       {
         from: 'node_modules/@mp/bundle-sdk',
         to: 'bundle'
+      },
+      {
+        from: 'node_modules/css-loader/dist/cjs.js',
+        to: 'node_modules/css-loader/dist/cjs.js'
       },
       { from: 'assets', to: 'assets'}
     ]),

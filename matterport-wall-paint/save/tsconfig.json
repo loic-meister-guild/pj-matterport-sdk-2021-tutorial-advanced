@@ -9,6 +9,6 @@
     ],
   },
   "include": [
-    "./src/**/**/*"
+    "./mp_labs_save/save/**/**/*"
   ]
 }
