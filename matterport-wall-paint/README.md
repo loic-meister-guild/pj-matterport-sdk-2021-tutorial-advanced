@@ -42,6 +42,13 @@ Don't forget to set the SDK Key in the `common/src/index.ts` file of the `common
 export const sdkKey = 'PUT_YOUR_SDK_KEY_HERE';
 // ...
 ```
+And in the `src/components/Main.tsx` file of the `src` library folder:
+
+```Typescript:src/components/Main.tsx
+// ...
+this.applicationKey = urlParams.get('applicationKey') || 'PUT_YOUR_SDK_KEY_HERE';
+// ...
+```
 
 ## Serve
 To serve the sample, run the following command
