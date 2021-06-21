@@ -74,7 +74,7 @@ export class Main extends Component<Props, State> {
     this.addSaveHandlers = !!urlParams.get('debug');
     this.modelSid = urlParams.get('m') || defaultSid;
     this.apiHost  = urlParams.get('apiHost') || '';
-    this.applicationKey = urlParams.get('applicationKey') || 'nsai8wcy6qwb4wfzh6k1u2mgc';
+    this.applicationKey = urlParams.get('applicationKey') || 'PUT_YOUR_SDK_KEY_HERE';
     this.state = {
       sdk: undefined,
       error: undefined,
