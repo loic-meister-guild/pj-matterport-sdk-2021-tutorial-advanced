@@ -1,4 +1,4 @@
-# vs-app extracted fron the Matterport SDK Bundle Example
+# Painter tool sample reconstructed from the Matterport labs page
 
 ## Install
 Install the Node.js modules:
@@ -49,10 +49,35 @@ And in the `src/components/Main.tsx` file of the `src` library folder:
 this.applicationKey = urlParams.get('applicationKey') || 'PUT_YOUR_SDK_KEY_HERE';
 // ...
 ```
+※ When making this sample, I had CORS errors and access problems using my SDK Key, so I used the one from the lab application: `08s53auxt9txz1w6hx2iww1qb`
+
+Same problem when using the model I used in my first tutorial, so I used the one from the lab application in the `src/components/Main.tsx` file:
+
+```TypeScript:src/components/Main.tsx
+// ...
+const defaultSid = 'j4RZx7ZGM6T';
+// ...
+```
 
 ## Serve
 To serve the sample, run the following command
 
 ```
 yarn develop
+```
+
+## yarn unlink
+```
+cd core
+yarn unlink
+cd ..
+cd common
+yarn unlink
+cd ..
+cd bundle
+yarn unlink
+cd ..
+cd save
+yarn unlink
+cd ..
 ```
