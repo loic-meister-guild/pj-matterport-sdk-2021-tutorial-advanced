@@ -16,7 +16,7 @@ node server.js
 ## Samples
 Try the samples:
 
-- [Matterport SDK Bundle Simple Component Test](https://localhost:8000) _(A model with an animated component object inside)_
+- [Matterport SDK Bundle Simple Component Test](https://localhost:8000) _(Rewrite of the original 2021 tutorial's' bundle example: A model with an animated component object inside)_
 
 ## Tutorial
 This is the backup of the Tutorial I wrote on Qiita:
