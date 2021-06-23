@@ -16,14 +16,8 @@ node server.js
 ## Samples
 Try the samples:
 
-- [Matterport SDK for embeds](https://localhost:8000) _(A model with Mattertags)_
-- [Matterport SDK Bundle](https://localhost:8000/bundle) _(A model with an animated object inside)_
-- [Intersection Inspector](https://localhost:8000/inspector)
-- [Simple Editor](https://localhost:8000/editor) _(A simplified version of the Transient Tag Editor)_
-- [Transient Tag Editor](https://localhost:8000/editor-full)
+- [Matterport SDK Bundle Simple Component Test](https://localhost:8000) _(A model with an animated component object inside)_
 
 ## Tutorial
 This is the backup of the Tutorial I wrote on Qiita:
 
-- [English](tutorial.md)
-- [日本語](チュートリアル.md)
