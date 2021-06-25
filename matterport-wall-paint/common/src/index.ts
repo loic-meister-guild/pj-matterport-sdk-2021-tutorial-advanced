@@ -65,6 +65,6 @@ export const initComponents = async (sdk: any) => {
 }
 
 export const assetVersion = '1.0-2-g6b74572';
-export const cdnUrl = `https://static.matterport.com/showcase-sdk/examples/assets-${assetVersion}/assets`;
-export const sdkKey = 'PUT_YOUR_SDK_KEY_HERE';
+export const cdnUrl = `https://static.matterport.com/showcase-sdk/current/painter/assets`;
+export const sdkKey = '08s53auxt9txz1w6hx2iww1qb';
 export const interfaceVersion = '3.10';

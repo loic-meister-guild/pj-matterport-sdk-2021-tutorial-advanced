@@ -39,14 +39,14 @@ Don't forget to set the SDK Key in the `common/src/index.ts` file of the `common
 
 ```Typescript:common/src/index.ts
 // ...
-export const sdkKey = 'PUT_YOUR_SDK_KEY_HERE';
+export const sdkKey = 'nsai8wcy6qwb4wfzh6k1u2mgc';
 // ...
 ```
 And in the `src/components/Main.tsx` file of the `src` library folder:
 
 ```Typescript:src/components/Main.tsx
 // ...
-this.applicationKey = urlParams.get('applicationKey') || 'PUT_YOUR_SDK_KEY_HERE';
+this.applicationKey = urlParams.get('applicationKey') || 'nsai8wcy6qwb4wfzh6k1u2mgc';
 // ...
 ```
 ※ When making this sample, I had CORS errors and access problems using my SDK Key, so I used the one from the lab application: `08s53auxt9txz1w6hx2iww1qb`

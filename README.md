@@ -13,10 +13,7 @@ More advanced Matterport samples.
 [`Pano Painter`](matterport-labs/README.md)
 
 ### Extracted Paint tool from Matterport labs page 
-[`Pano Painter (1)`](matterport-wall-paint/README.md) (80% Functional, Without CSS)
-
-### Extracted Paint tool from Matterport labs page 
-[`Pano Painter (2)`](matterport-wall-paint-css/README.md) (CSS fixed but Non Functional)
+[`Pano Painter`](matterport-wall-paint/README.md) (Functional, With minor CSS problems)
 
 ## Advanced 2021 Tutorial app
 [`Advanced 2021 Tutorial`](2021-advanced-tutorial/README.md)

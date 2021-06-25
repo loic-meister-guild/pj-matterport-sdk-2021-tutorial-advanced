@@ -33,7 +33,6 @@ class MyComponent{
     console.log('MyComponent.onInit()')
     const THREE = this.context.three;
     this.root = new THREE.Object3D();
-    console.log('MyComponent', this.root)
     mpSdk.Scene.createNode().then((lights) =>{
       lights.addComponent('mp.lights');
       lights.start();

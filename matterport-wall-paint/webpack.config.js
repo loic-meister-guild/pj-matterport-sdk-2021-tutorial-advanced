@@ -1,6 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const CopyPlugin = require('copy-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
 mode: 'development',
@@ -15,10 +16,32 @@ mode: 'development',
   module: {
     rules: [
       {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 1,
+              modules: true
+            }
+          }
+        ],
+        include: /\.module\.css$/
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader'
+        ],
+        exclude: /\.module\.css$/
+      },
+      {
         test: /\.(ts|tsx)$/,
         loader: 'ts-loader'
       },
-      { enforce: "pre", test: /\.js$/, loader: "source-map-loader" },
+      { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
     ]
   },
   plugins: [
@@ -32,12 +55,12 @@ mode: 'development',
         from: 'node_modules/@mp/bundle-sdk',
         to: 'bundle'
       },
-      {
-        from: 'node_modules/css-loader/dist/cjs.js',
-        to: 'node_modules/css-loader/dist/cjs.js'
-      },
-      { from: 'assets', to: 'assets'}
+      { from: 'assets/*', to: './'},
+      { from: 'bundle/images/*', to: './images/'}
     ]),
+    new MiniCssExtractPlugin({
+      filename: '[name].css'
+    }),
   ],
   devServer: {
     port: 8000,

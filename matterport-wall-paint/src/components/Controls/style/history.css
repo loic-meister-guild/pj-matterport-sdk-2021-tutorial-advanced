@@ -1,7 +1,41 @@
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = require("../../../../node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.id, ".history-buttons-container {\n  position: fixed;\n  top: 40px;\n  right: 40px;\n  pointer-events: none;\n}\n\n.history-button {\n  display: inline-block;\n  height: 32px;\n  width: 96px;\n  color: white;\n  background-color: rgba(0, 0, 0, 0.7);\n  margin-left: 10px;\n  font-size: 14px;\n  text-align: center;\n  line-height: 32px;\n  border: 0;\n  border-radius: 4px;\n  pointer-events: all;\n}\n\n.history-button > * {\n  position: unset;\n}\n\n.history-button.enabled:hover {\n  background-color: rgba(0, 0, 0, 1.0);\n}\n\n.history-button .icon {\n  display: inline-block;\n  width: auto;\n  font-size: 24px;\n  margin-right: 8px;\n  vertical-align: middle;\n}\n\n.history-redo > .icon-history {\n  transform: scaleX(-1);\n}\n", ""]);
-// Exports
-module.exports = exports;
+.history-buttons-container {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  pointer-events: none;
+}
+
+.history-button {
+  display: inline-block;
+  height: 32px;
+  width: 96px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-left: 10px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 32px;
+  border: 0;
+  border-radius: 4px;
+  pointer-events: all;
+}
+
+.history-button > * {
+  position: unset;
+}
+
+.history-button.enabled:hover {
+  background-color: rgba(0, 0, 0, 1.0);
+}
+
+.history-button .icon {
+  display: inline-block;
+  width: auto;
+  font-size: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.history-redo > .icon-history {
+  transform: scaleX(-1);
+}

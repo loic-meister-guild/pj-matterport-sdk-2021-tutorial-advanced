@@ -1,9 +1,47 @@
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = require("../node_modules/css-loader/dist/runtime/api.js");
-var ___CSS_LOADER_AT_RULE_IMPORT_0___ = require("./font.css");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-exports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);
-// Module
-exports.push([module.id, "#sdk-iframe {\n  width: 100vw;\n  height: 100vh;\n}\n\nbody {\n  -ms-user-select: none;\n  -webkit-user-select: none;\n  user-select: none;\n  overflow: hidden;\n}\n\n.banner {\n  position: fixed;\n  bottom: calc(100% - 2em);\n  width: 100%;\n  height: 2em;\n  line-height: 2em;\n  background-color: #f5f4f3;\n  padding-left: 8px;\n  transition: bottom .5s .5s;\n}\n\n.banner.collapsed {\n  bottom: 100%;\n}\n\n.banner.error {\n  background-color: #ff3158;\n}\n\n/* debug */\nbody.has-saves {\n  overflow: scroll;\n  overflow-x: hidden;\n}\n\n.save {\n  margin: 0 32px;\n  width: 64px;\n  height: 25px;\n}\n\n.saves img {\n  width: 128px;\n  height: 128px;\n}\n", ""]);
-// Exports
-module.exports = exports;
+#sdk-iframe {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  overflow: hidden;
+}
+
+.banner {
+  position: fixed;
+  bottom: calc(100% - 2em);
+  width: 100%;
+  height: 2em;
+  line-height: 2em;
+  background-color: #f5f4f3;
+  padding-left: 8px;
+  transition: bottom .5s .5s;
+}
+
+.banner.collapsed {
+  bottom: 100%;
+}
+
+.banner.error {
+  background-color: #ff3158;
+}
+
+/* debug */
+body.has-saves {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.save {
+  margin: 0 32px;
+  width: 64px;
+  height: 25px;
+}
+
+.saves img {
+  width: 128px;
+  height: 128px;
+}
