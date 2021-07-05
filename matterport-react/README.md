@@ -1,4 +1,5 @@
-# Painter tool sample reconstructed from the Matterport labs page
+# Minimal Matterport React Project
+Based on the Matterport Labs painter app.
 
 ## Install
 Install the Node.js modules:
