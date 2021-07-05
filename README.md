@@ -15,5 +15,8 @@ More advanced Matterport samples.
 ### Extracted Paint tool from Matterport labs page 
 [`Pano Painter`](matterport-wall-paint/README.md) (Functional, With minor CSS problems)
 
+## React App
+[`Minimal Matterport React app`](matterport-reactREADME.md)
+
 ## Advanced 2021 Tutorial app
 [`Advanced 2021 Tutorial`](2021-advanced-tutorial/README.md)
