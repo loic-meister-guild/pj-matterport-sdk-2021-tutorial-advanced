@@ -1,13 +1,14 @@
 @font-face {
   font-family: 'labs-paint';
   src:
-    url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format('truetype'),
-    url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format('woff'),
-    url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ") format('svg');
+    url("../fonts/labs-paint.ttf") format('truetype'),
+    url("../fonts/labs-paint.woff") format('woff'),
+    url("../fonts/labs-paint.svg") format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
+
 
 .icon {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -24,29 +25,29 @@
 }
 
 .icon-dropper-fill:before {
-  content: \"\\e901\";
+  content: "\e901";
 }
 .icon-dropper-outline:before {
-  content: \"\\e908\";
+  content: "\e908";
 }
 .icon-dropper:before {
-  content: \"\\e902\";
+  content: "\e902";
 }
 .icon-bucket-fill:before {
-  content: \"\\e906\";
+  content: "\e906";
 }
 .icon-bucket:before {
-  content: \"\\e907\";
+  content: "\e907";
 }
 .icon-brush:before {
-  content: \"\\e900\";
+  content: "\e900";
 }
 .icon-history:before {
-  content: \"\\e904\";
+  content: "\e904";
 }
 .icon-checkmark:before {
-  content: \"\\e905\";
+  content: "\e905";
 }
 .icon-chevron-down:before {
-  content: \"\\e909\";
+  content: "\e909";
 }
